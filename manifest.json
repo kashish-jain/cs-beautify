@@ -1,0 +1,36 @@
+{
+    "manifest_version": 2,
+  
+    "name": "CS Beautify",
+    "description": "This extension beautifies the CS 240 course website of University of Waterloo",
+    "version": "0.1",
+    "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png",
+      "16": "icon16.png"
+    },
+  
+    "page_action": {
+      "default_icon": "icon16.png",
+      "default_popup": "popup.html",
+      "default_title": "CS beautify"
+    },
+  
+    "background": {
+      "scripts": ["eventPage.js"],
+      "persistent": false
+    },
+  
+    "content_scripts":[
+      { 
+        "matches": ["https://www.student.cs.uwaterloo.ca/~cs240/*"],
+        "js": ["content.js"],
+        "css": ["content.css"]
+      }
+    ],
+  
+    "permissions": [
+      "tabs",
+      "https://www.student.cs.uwaterloo.ca/~cs240/*"
+          ]
+  }
