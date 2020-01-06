@@ -1,0 +1,1 @@
+document.getElementById("headerbox").style.color = "pink";
