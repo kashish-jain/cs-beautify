@@ -25,10 +25,11 @@ thisPageMenu.innerHTML = "";
 thisPageMenu.appendChild(newActiveElement);
 
 // Clear all the styles that is added by #thisPageMenu
-thisPageMenu.style.border = "0px";
-thisPageMenu.style.padding = "0px";
-thisPageMenu.style.margin = "0px";
-thisPageMenu.style.height = "0px";
+thisPageMenu.style.border = "initial";
+thisPageMenu.style.padding = "initial";
+thisPageMenu.style.margin = "initial";
+thisPageMenu.style.height = "initial";
+thisPageMenu.style.backgroundColor = "initial";
 
 // Remove headerbox
 let headerBox = document.getElementById("headerbox");
