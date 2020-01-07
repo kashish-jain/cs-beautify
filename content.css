@@ -2,3 +2,18 @@
     /* display: inline; */
     color: black;
 }
+
+.bottom-navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFD54F;
+}
+
+.cs-text {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+body h2 {
+}
