@@ -20,7 +20,9 @@
       "scripts": ["eventPage.js"],
       "persistent": false
     },
-  
+    "web_accessible_resources": [
+      "images/*.jpg"
+    ],
     "content_scripts":[
       { 
         "matches": ["https://www.student.cs.uwaterloo.ca/~cs240/*"],

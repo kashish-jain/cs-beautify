@@ -56,3 +56,7 @@ for(let i = 0; i < menuItems.length; ++i) {
         link.classList.add('nav-link');
     }
 }
+
+// adding background
+// let img = chrome.runtime.getURL('./background.jpg');
+document.getElementsByClassName("mainbody")[0].classList.add("background");

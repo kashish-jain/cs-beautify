@@ -3,6 +3,10 @@
     color: black;
 }
 
+body {
+    color: white;
+}
+
 .bottom-navbar {
     display: flex;
     justify-content: space-between;
@@ -15,5 +19,8 @@
     text-transform: uppercase;
 }
 
-body h2 {
+.background {
+    background-image: url('chrome-extension://__MSG_@@ebcdlciackjgklndjjnkmohlamhkbgfi/images/background.jpg');
+    background-size: cover;
 }
+
