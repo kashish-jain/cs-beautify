@@ -5,7 +5,7 @@
 
 body {
     color: white;
-    background-image: url('chrome-extension://__MSG_@@ebcdlciackjgklndjjnkmohlamhkbgfi/images/background2.png'),linear-gradient(#eb01a5, #d13531);
+    background-image: url('chrome-extension://__MSG_@@ebcdlciackjgklndjjnkmohlamhkbgfi/images/background2.png');
     background-size: cover;
 }
 
