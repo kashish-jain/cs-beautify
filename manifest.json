@@ -21,7 +21,7 @@
       "persistent": false
     },
     "web_accessible_resources": [
-      "images/*.jpg"
+      "images/*"
     ],
     "content_scripts":[
       { 

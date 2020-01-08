@@ -5,7 +5,10 @@
 
 body {
     color: white;
+    background-image: url('chrome-extension://__MSG_@@ebcdlciackjgklndjjnkmohlamhkbgfi/images/background2.png'),linear-gradient(#eb01a5, #d13531);
+    background-size: cover;
 }
+
 
 .bottom-navbar {
     display: flex;
@@ -19,8 +22,8 @@ body {
     text-transform: uppercase;
 }
 
-.background {
+/* .background {
     background-image: url('chrome-extension://__MSG_@@ebcdlciackjgklndjjnkmohlamhkbgfi/images/background.jpg');
     background-size: cover;
-}
+} */
 
